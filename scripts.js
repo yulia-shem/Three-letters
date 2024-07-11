@@ -26,7 +26,7 @@ init();
 const alphabet = "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯяюэьыъщшчцхфутсрпонмлкйизжедгвба";
 
 let forbid = ["аут", "фак", "хуй", "хер", "лох"];
-let words = ["дом", "кот", "пар", "лес", "жук", "куб", "шар", "душ", "мир", "мак", "рок", "нос", "сыр", "мул", "миг", "фен", "нюх", "сев", "лис", "тис", "бок", "бар", "гад", "ухо", "вид", "акт", "имя", "боб", "икс", "воз", "зов", "яма", "мяч", "эхо", "юла", "ель"];
+let words = ["дом", "кот", "пар", "лес", "жук", "куб", "шар", "душ", "мир", "мак", "рок", "нос", "сыр", "мул", "миг", "фен", "нюх", "сев", "лис", "тис", "бок", "бар", "бра", "гад", "ухо", "вид", "акт", "акр", "имя", "боб", "икс", "воз", "зов", "яма", "мяч", "эхо", "юла", "ель", "аул", "щуп", "гол", "гул", "вол", "вал", "дар", "дым", "зло", "чип", "фут", "ярд"];
 let answer;
 
 let btn_start = document.querySelector("#btn_start");
@@ -145,8 +145,8 @@ function checkAnswer(inputRow) {
 
 function nextRow() {
     popitka++; // для взятия нужного ряда
-        row_inputs = document.querySelectorAll(".row")[popitka].querySelectorAll("input");
-        row_inputs[0].disabled = false;
-        row_inputs[0].focus();
-        makeRowInteract(popitka);
+    row_inputs = document.querySelectorAll(".row")[popitka].querySelectorAll("input");
+    row_inputs[0].disabled = false;
+    row_inputs[0].focus();
+    makeRowInteract(popitka);
 }
