@@ -1,5 +1,6 @@
 # Игра "3 буквы"
 Поиграть онлайн можно тут: <https://yulia-shem.github.io/Three-letters/>
+
 С мобильного устройства играть тут: <https://yulia-shem.github.io/Three-letters_mobile/>
 ## Правила:
 Загадано существительное из трёх букв в единственном числе.
